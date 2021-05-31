@@ -2,9 +2,6 @@ const hourContainer = document.getElementById('hour');
 const minuteContainer = document.getElementById('minute');
 const secondContainer = document.getElementById('second');
 
-
-
-
 const getTime = () => {
     let date = new Date();
     let hour = date.getHours();
